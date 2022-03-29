@@ -70,7 +70,7 @@ app.get('/movie3', (req, res) => {
   let query = db.query(sql, post, (err, result) => {
     if(err) throw err;
     console.log(result);
-    res.send('Movie two has been added...');
+    res.send('Movie three has been added...');
   });
 });
 
